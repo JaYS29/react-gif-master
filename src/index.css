@@ -1,13 +1,81 @@
-body {
+* {
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 20px;
+  width: 80%;
+}
+
+input {
+  color: rgb(99, 98, 98);
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  margin: 20px 0px;
+  width: 40%;
+  height: 30px;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgb(224, 150, 53);
+  border: none;
+  border-radius: 2px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.category-form {
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+
+.gif-category {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gif-grid {
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.gif-grid img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 3px #d6d6d6;
+  padding: 20px;
+}
+
+.new-category-form {
+  margin-top: 20px;
+}
+
+.loading {
+  font-size: 36px;
+  text-align: center;
 }
